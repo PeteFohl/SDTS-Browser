@@ -1,0 +1,65 @@
+README File:                                                      Version: 2/99
+
+This directory contains a Spatial Data Transfer Standard (SDTS), 
+Topological Vector Profile (TVP) compliant transfer, produced by the 
+National Mapping Division of the United States Geological Survey (USGS).
+
+
+PURPOSE OF TRANSFER:
+        The mission of the U.S. Geological Survey's National Mapping Division
+        is to meet the Nation's need for basic geospatial data, ensuring access
+        to and advancing the application of these data and other related earth 
+        science information for users worldwide. These data are provided in SDTS 
+        format as the result of a federal mandate.
+
+        The Digital Line Graphs (DLG's) are the U.S. Geological Survey, 
+        National Mapping Division, Vector Program's response to the nation's
+        need for accurate and consistent geospatial digital data in
+        vector format.
+
+REQUIREMENTS:          
+        This transfer requires an external data dictionary from the U.S. 
+        Geological Survey, National Mapping Division, with a 4-character
+        code of DLG-3, version number 3.00.  These files can be obtained
+        from the same web site from which the data was obtained.
+
+STANDARD AUTHORITY:  
+        American National Standards Institute (ANSI):
+        ANSI-NCITS 320-1998 The Spatial Data Transfer Standard, 
+        Part 4: Topological Vector Profile, Version 1, June 9, 1998
+
+ISO 8211 CONFORMANCE:
+        All files with extension *.DDF are in the ISO 8211 file transfer
+        format. All SDTS spatial addresses are expressed in two 32 bit 
+        binary sub-fields defined by the ISO 8211.  Leader and directory 
+        information are dropped whenever possible. Files are Level 2 as
+        described in ISO 8211.
+ 
+CATALOG DIRECTORY MODULE xxxxCATD.DDF:
+        Each transfer will contain this catalog directory module which
+        contains a listing of every SDTS ISO 8211 file included in the
+        transfer.  (xxxx indicates a four-character transfer base which 
+        is common to all files in a transfer.)
+
+IDENTIFICATION MODULE xxxxIDEN.DDF:
+        This module contains information that describes the overall
+        characteristics of the data in a transfer, including
+        its geographical domain.  
+
+REFERENCES:
+        "DLG-3 SDTS Transfer Description" This is a  draft document that describes
+        SDTS transfers of DLG-3 data, including detailed information on
+        each module. Check the SDTS web site at http://mcmcweb.er.usgs.gov/sdts 
+        for a copy or contact the USGS.
+
+POINT OF CONTACT:
+        SDTS Task Force               
+        U.S. Geological Survey        
+        1400 Independence Road       
+        Rolla, MO 65401              
+        E-MAIL: sdts@usgs.gov 
+             or mcmcesic@usgs.gov for USGS Product Information.
+       
+       
+
+
